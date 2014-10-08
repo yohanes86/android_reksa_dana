@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Reksa Dana Dan Saham</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu1">Menu 1</string>
+    <string name="menu2">Menu 2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="label_loading">Please Wait...</string>
+    <string name="spinner_title1">Jenis</string>
+    <string name="spinner_title">Spinner</string>
+    
+    <string name="title_reksa_dana">Reksa Dana</string>
+    <string name="title_saham">Saham</string>
+    
+    <string name="url_reksa_dana">http://www.infovesta.com/isd/m/mindex.jsp</string>
+    <string name="url_saham">http://www.infovesta.com/isd/m/mindexs.jsp</string>
+    
+    <string name="pend_tetap">Pend.Tetap</string>
+    <string name="campuran">Campuran</string>
+    <string name="saham">Saham</string>
+    <string name="pasar_uang">Pasar Uang</string>
+    <string name="terproteksi">Terproteksi</string>
+    <string name="indeks_etf">Indeks &amp; ETF</string>
+    <string name="dollar">Dollar</string>
+    <string name="syariah">Syariah</string>
+    <string name="p_terbatas">P.Terbatas</string> 
+    
+    <string name="lq45">LQ45</string>
+    <string name="bisnis27">Bisnis 27</string>
+    <string name="kompas100">Kompas 100</string>
+    <string name="all">Semua Saham</string>
+   
+    <string name="link_pend_tetap">http://www.infovesta.com/isd/m/mindex.jsp?tipe=pt</string>
+    <string name="link_campuran">http://www.infovesta.com/isd/m/mindex.jsp?tipe=cp</string>
+    <!--http://www.infovesta.com/isd/m/mindex.jsp?tipe=sh  -->
+    <string name="link_saham">http://www.infovesta.com/isd/m/mindex.jsp?tipe=sh</string>
+    <string name="link_pasar_uang">http://www.infovesta.com/isd/m/mindex.jsp?tipe=pu</string>
+    <string name="link_terproteksi">http://www.infovesta.com/isd/m/mindex.jsp?tipe=pp</string>
+    <string name="link_indeks_etf">http://www.infovesta.com/isd/m/mindex.jsp?tipe=id</string>
+    <string name="link_dollar">http://www.infovesta.com/isd/m/mindex.jsp?tipe=dl</string>
+    <string name="link_syariah">http://www.infovesta.com/isd/m/mindex.jsp?tipe=sy</string>
+    <string name="link_p_terbatas">http://www.infovesta.com/isd/free/reksa2.jsp?tipe=tb</string>
+    
+    
+    <string name="link_lq45">http://www.infovesta.com/isd/m/mindexs.jsp?tipe=LQ45</string>
+    <string name="link_bisnis27">http://www.infovesta.com/isd/m/mindexs.jsp?tipe=BISNIS27</string>
+    <string name="link_kompas100">http://www.infovesta.com/isd/m/mindexs.jsp?tipe=KOMPAS100</string>
+    <string name="link_all_saham">http://www.infovesta.com/isd/m/mindexs.jsp?tipe=ALL</string>
+
+    <string-array name="list_reksa_dana">
+        <item>Pend.Tetap</item>
+        <item>Campuran</item>
+        <item>Saham</item>
+        <item>Pasar Uang</item>
+        <item>Terproteksi</item>
+        <item>Indeks &amp; ETF</item>
+        <item>Dollar</item>
+        <item>Syariah</item>
+        <item>P.Terbatas</item>
+        
+    </string-array>
+    
+    <string-array name="list_saham">
+        <item>LQ45</item>
+        <item>Bisnis 27</item>
+        <item>Kompas 100</item>
+        <item>Semua Saham</item>
+    </string-array>
+    
+    <style name="ButtonText">
+	    <item name="android:layout_width">fill_parent</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:textColor">#ffffff</item>
+	    <item name="android:gravity">center</item>
+	    <item name="android:layout_margin">3dp</item>
+	    <item name="android:textSize">22dp</item>
+	    <item name="android:textStyle">bold</item>
+	    <item name="android:shadowColor">#000000</item>
+	    <item name="android:shadowDx">1</item>
+	    <item name="android:shadowDy">1</item>
+	    <item name="android:shadowRadius">2</item>
+	</style>
+
+</resources>

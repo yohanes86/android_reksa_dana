@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="#FFFAFA">
+    <!-- #ffccd0 -->
+    <!-- #FFFAFA -->
+    
+    <ImageView
+        android:id="@+id/InternetlogoId"
+        android:layout_width="40dip"
+        android:layout_height="30dip"
+        android:layout_gravity="right"
+        android:maxWidth="@dimen/activity_horizontal_margin"
+        android:src="@drawable/fail" 
+       
+        />
+   
+    <!-- Label Type -->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Reksa Dana/saham"
+        android:padding="8dip"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textColor="@color/Black"
+        android:layout_marginLeft="8dip"  
+        />
+ 
+    <!-- Spinner Dropdown Jenis Pilihan -->
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/spinner_title1"
+        android:textColor="@color/Black"
+        android:layout_marginTop="5dip"
+        android:layout_marginLeft="8dip"
+        android:layout_marginRight="8dip"
+        android:layout_marginBottom="8dip"
+           />
+    
+    <!-- Select Label Type Reksa Dana -->
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/Black"
+        android:padding="8dip"
+        android:textStyle="bold"
+        android:layout_marginLeft="8dip"
+         />
+ 
+    <!-- Spinner Dropdown list Reksa Dana-->
+      
+    <Spinner
+        android:id="@+id/spinnerType"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/spinner_title"
+        android:textColor="@color/Black"
+        android:layout_marginTop="5dip"
+        android:layout_marginLeft="8dip"
+        android:layout_marginRight="8dip"
+       
+    />
+ 
+    
+    <!-- Select Label Type Saham -->
+    <!-- 
+    <TextView
+        android:id="@+id/SahamType"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:padding="8dip"
+        android:textStyle="bold"
+        android:layout_marginLeft="8dip" />
+     -->
+    <!-- Spinner Dropdown list Saham-->
+     <!-- 
+    <Spinner
+        android:id="@+id/spinnerSahamType"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/spinner_title"
+        android:layout_marginTop="5dip"
+        android:layout_marginLeft="8dip"
+        android:layout_marginRight="8dip"
+    />
+     -->
+    
+     <!-- Add Button -->
+   
+    <!-- 
+    <Button android:id="@+id/btnProcess"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Cari"
+        android:textColor="@color/Black"
+        android:layout_marginLeft="8dip"
+        android:layout_marginTop="8dip"
+        android:layout_marginRight="8dip"/>
+     -->    
+     
+      <Button 
+          android:id="@+id/btnProcess"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:text="Cari" 
+          android:textSize="20dp"
+          android:textColor="@color/White"
+          android:background="@drawable/btn_blue" 
+          style="@style/ButtonText">
+      </Button>
+</LinearLayout>

@@ -1,0 +1,101 @@
+<!--two_col_row.xml-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:gravity="left|center"
+    android:layout_width="wrap_content"
+    android:paddingBottom="10px"
+    android:paddingTop="10px"
+    android:paddingLeft="3px">
+     <TextView
+        android:id="@+id/ReksaName"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textSize="13dip"
+        android:textStyle="bold"
+        android:textColor="#d08021"
+        android:paddingLeft="10dip">
+     </TextView>
+     
+     <TextView
+        android:id="@+id/Nab"
+        android:layout_width="120dip"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textSize="13dip"
+        android:textStyle="bold"
+        android:textColor="#d08021"
+        android:paddingLeft="10dip">
+     </TextView>
+     
+      <TextView
+        android:id="@+id/Hr"
+        android:layout_width="120dip"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textSize="13dip"
+        android:textStyle="bold"
+        android:textColor="#d08021"
+        android:paddingLeft="10dip">
+     </TextView>
+     
+      <!-- 
+      <TextView
+        android:id="@+id/Mggu"
+        android:layout_width="120dip"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textSize="13dip"
+        android:textStyle="bold"
+        android:textColor="#d08021"
+        android:paddingLeft="10dip">
+     </TextView>
+      -->
+     
+      <TextView
+        android:id="@+id/Bln"
+        android:layout_width="120dip"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textSize="13dip"
+        android:textStyle="bold"
+        android:textColor="#d08021"
+        android:paddingLeft="10dip">
+     </TextView>
+     
+       <TextView
+        android:id="@+id/Thn1"
+        android:layout_width="120dip"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textSize="13dip"
+        android:textStyle="bold"
+        android:textColor="#d08021"
+        android:paddingLeft="10dip">
+     </TextView>
+     
+       <TextView
+        android:id="@+id/Thn3"
+        android:layout_width="70dip"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textSize="13dip"
+        android:textStyle="bold"
+        android:textColor="#d08021"
+        android:paddingLeft="10dip">
+     </TextView>
+     
+        <!-- 
+       <TextView
+        android:id="@+id/TextView08"
+        android:layout_width="120dip"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textSize="13dip"
+        android:textStyle="bold"
+        android:textColor="#d08021"
+        android:paddingLeft="10dip">
+     </TextView>
+  	-->
+   
+</LinearLayout>

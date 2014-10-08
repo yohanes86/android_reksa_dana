@@ -1,0 +1,176 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tool"
+    android:id="@+id/horizontalScrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true" >
+
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FAFAFA"
+    >
+    <!-- #ffccd0 -->
+    <!-- #FFFAFA -->
+    
+    <!-- #ffb0b6 -->
+   
+    <TextView
+            android:text="Data Reksa Dana"
+            android:textColor="#000000"
+            android:gravity="center_vertical|center_horizontal"
+            android:textSize="26dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:background="#5673E8"
+            android:layout_marginBottom="2dip"
+            android:typeface="sans"/>
+    
+     <TextView
+         	android:id="@+id/tanggal"
+            android:text=""
+            android:textColor="#000000" 
+            android:gravity="left"
+            android:textSize="15dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:background="#5673E8"
+            android:layout_marginBottom="2dip"
+            android:paddingLeft="15dip"
+            android:typeface="sans"/>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#0D0C0C">
+        <TextView android:id="@+id/tv_1"
+            android:textColor="#FFFFFF"
+            android:gravity="center_vertical|left"
+            android:textSize="16dip"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:layout_width="210dip"
+            android:layout_alignBottom="@+id/tv_2"
+            android:paddingLeft="15dip"
+            android:text="Reksa Dana">
+        </TextView>
+        
+         <TextView android:id="@+id/tv_99"
+            android:textColor="#FFFFFF"
+            android:gravity="center_vertical|center"
+            android:textSize="16dip"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:layout_width="600dip"
+            android:layout_toRightOf="@+id/tv_1"
+            android:text="Pertumbuhan (Return)%">
+        </TextView>
+        
+        <TextView android:id="@+id/tv_2"
+            android:textColor="#FFFFFF"
+            android:gravity="center_vertical|left"
+            android:textSize="16dip"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:layout_width="120dip"
+            android:layout_toRightOf="@+id/tv_1"
+            android:layout_below="@+id/tv_99"
+            android:text="NAB/UP">
+        </TextView>
+        
+          <TextView android:id="@+id/tv_3"
+            android:textColor="#FFFFFF"
+            android:gravity="center_vertical|left"
+            android:textSize="16dip"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:layout_width="120dip"
+            android:layout_toRightOf="@+id/tv_2"
+            android:layout_below="@+id/tv_99"
+            android:text="1 hr(%)">
+        </TextView>
+        
+       <!-- 
+       <TextView android:id="@+id/tv_4"
+            android:textColor="#FFFFFF"
+            android:gravity="center_vertical|left"
+            android:textSize="16dip"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:layout_width="120dip"
+            android:layout_toRightOf="@+id/tv_3"
+            android:layout_below="@+id/tv_99"
+            android:text="1 mgg(%)">
+        </TextView>
+         -->
+        <TextView android:id="@+id/tv_5"
+            android:textColor="#FFFFFF"
+            android:gravity="center_vertical|left"
+            android:textSize="16dip"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:layout_width="120dip"
+            android:layout_toRightOf="@+id/tv_3"
+            android:layout_below="@+id/tv_99"
+            android:text="1 bln(%)">
+        </TextView>
+        
+        <TextView android:id="@+id/tv_6"
+            android:textColor="#FFFFFF"
+            android:gravity="center_vertical|left"
+            android:textSize="16dip"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:layout_width="120dip"
+            android:layout_toRightOf="@+id/tv_5"
+            android:layout_below="@+id/tv_99"
+            android:text="1 thn(%)">
+        </TextView>
+        
+        <TextView android:id="@+id/tv_7"
+            android:textColor="#FFFFFF"
+            android:gravity="center_vertical|left"
+            android:textSize="16dip"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@+id/tv_6"
+            android:layout_below="@+id/tv_99"
+            android:text="3 thn(%)">
+        </TextView>
+        <!-- 
+        <TextView android:id="@+id/tv_8"
+            android:textColor="#FFFFFF"
+            android:gravity="center_vertical|left"
+            android:textSize="16dip"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:layout_width="120dip"
+            android:layout_toRightOf="@+id/tv_7"
+            android:layout_below="@+id/tv_99"
+            android:text="5 thn(%)">
+        </TextView>
+ 		 -->
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lv_country"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="#00000000" >
+    </ListView>
+
+</LinearLayout>
+
+</HorizontalScrollView>
